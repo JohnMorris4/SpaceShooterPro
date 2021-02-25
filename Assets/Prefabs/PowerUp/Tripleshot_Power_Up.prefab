@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8242800624389679058}
   - component: {fileID: 3569882134221012146}
   - component: {fileID: 4903891108916216415}
+  - component: {fileID: 281487377414285889}
   m_Layer: 0
   m_Name: Tripleshot_Power_Up
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2050396029783227950}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.42, y: 0, z: 0}
+  m_LocalPosition: {x: 0.21, y: 6.24, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
@@ -120,3 +121,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &281487377414285889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050396029783227950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6884b3d430cfa47d08ea2e76fba88b59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 3
